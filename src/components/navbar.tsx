@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Automatyczne", href: "#automatyczne" },
   { label: "Ręczne", href: "#reczne" },
   { label: "Zastosowania", href: "#zastosowania" },
+  { label: "Ochrona ludności", href: "#ochrona-ludnosci" },
   { label: "Dlaczego my", href: "#dlaczego-my" },
   { label: "Kontakt", href: "#kontakt" },
 ];

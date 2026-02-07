@@ -30,10 +30,10 @@ export function AutomaticDetail() {
               Automatyczna paczkowarka do wody pitnej
             </h2>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-              Nowoczesna automatyczna paczkowarka do porcjowania i pakowania wody pitnej w jednorazowe saszetki o pojemności 300–1000 ml. Urządzenie pracuje w trybie ciągłym i może być użytkowane stacjonarnie lub mobilnie.
+              {"Nowoczesna automatyczna paczkowarka do porcjowania i\u00a0pakowania wody pitnej w\u00a0jednorazowe saszetki o\u00a0pojemności 300\u20131000\u00a0ml. Urządzenie pracuje w\u00a0trybie ciągłym i\u00a0może być użytkowane stacjonarnie lub mobilnie."}
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Maszyna pakuje wcześniej uzdatnioną wodę w hermetyczne, jednorazowe opakowania. Przystosowana do natychmiastowej dystrybucji wśród ludności. Automatyczny proces konfekcjonowania zapewnia wysoki poziom bezpieczeństwa sanitarnego, powtarzalność porcji oraz sprawne wydawanie wody w sytuacjach wymagających szybkiej reakcji.
+              {"Maszyna pakuje wcześniej uzdatnioną wodę w\u00a0hermetyczne, jednorazowe opakowania. Przystosowana do natychmiastowej dystrybucji wśród ludności. Automatyczny proces konfekcjonowania zapewnia wysoki poziom bezpieczeństwa sanitarnego, powtarzalność porcji oraz sprawne wydawanie wody w\u00a0sytuacjach wymagających szybkiej reakcji."}
             </p>
 
             {/* Technical params */}
@@ -45,7 +45,7 @@ export function AutomaticDetail() {
                   { icon: Ruler, label: "Szerokosc folii", value: "320 / 380 mm" },
                   { icon: Timer, label: "Wydajnosc", value: "1200-2200 paczek/h" },
                   { icon: FileText, label: "Instrukcja", value: "Jezyk polski" },
-                  { icon: Award, label: "Urządzenia i folie posiadają", value: "Atesty i certyfikaty PZH" },
+                  { icon: Award, label: "Urządzenia i\u00a0folie posiadają", value: "Atesty i\u00a0certyfikaty PZH" },
                 ].map((param) => (
                   <div
                     key={param.label}
@@ -106,9 +106,9 @@ export function AutomaticDetail() {
                 <div className="mt-5 flex flex-wrap gap-2">
                   {[
                     "Centra zarzadzania kryzysowego",
-                    "Szpitale i placowki opiekuncze",
+                    "Szpitale i\u00a0placowki opiekuncze",
                     "Zaklady przemyslowe",
-                    "Fermy drobiu i hodowle",
+                    "Fermy drobiu i\u00a0hodowle",
                     "Wydarzenia masowe",
                   ].map((app) => (
                     <span
@@ -157,10 +157,10 @@ export function ManualDetail() {
               Ręczna paczkowarka do wody w worki
             </h2>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-              Urządzenie klasy premium do pakowania wody pitnej w atestowane worki foliowe. Zaprojektowane z myślą o pracy w warunkach kryzysowych, terenowych oraz jako rezerwowe źródło wody dla instytucji i gospodarstw.
+              {"Urządzenie klasy premium do pakowania wody pitnej w\u00a0atestowane worki foliowe. Zaprojektowane z\u00a0myślą o\u00a0pracy w\u00a0warunkach kryzysowych, terenowych oraz jako rezerwowe źródło wody dla instytucji i\u00a0gospodarstw."}
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Zastosowane procedury dezynfekcji podczas konfekcjonowania gwarantują zachowanie wysokich standardów bezpieczeństwa mikrobiologicznego gotowych opakowań.
+              {"Zastosowane procedury dezynfekcji podczas konfekcjonowania gwarantują zachowanie wysokich standardów bezpieczeństwa mikrobiologicznego gotowych opakowań."}
             </p>
 
             {/* Benefits */}
@@ -169,9 +169,9 @@ export function ManualDetail() {
               <ul className="mt-4 flex flex-col gap-3">
                 {[
                   "Szybkie uruchomienie produkcji wody",
-                  "Redukcja kosztów transportu i magazynowania",
+                  "Redukcja kosztów transportu i\u00a0magazynowania",
                   "Spełnienie wymogów sanitarnych",
-                  "Wysoka trwałość i niskie koszty eksploatacji",
+                  "Wysoka trwałość i\u00a0niskie koszty eksploatacji",
                 ].map((benefit) => (
                   <li key={benefit} className="flex items-center gap-3 text-sm text-foreground">
                     <div className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/10">
@@ -211,9 +211,9 @@ export function ManualDetail() {
                   {[
                     "Przedsiębiorstw wodociągowych",
                     "Jednostek samorządu terytorialnego",
-                    "Wojska i służb ratunkowych",
+                    "Wojska i\u00a0służb ratunkowych",
                     "Organizacji humanitarnych",
-                    "Ferm drobiu i zakładów produkcyjnych",
+                    "Ferm drobiu i\u00a0zakładów produkcyjnych",
                   ].map((app) => (
                     <span
                       key={app}

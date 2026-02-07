@@ -10,7 +10,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ['latin', 'latin-ext'], variable: '
 const SITE_URL = 'https://www.paczkowarkadowody.pl'
 const SITE_NAME = 'Paczkowarka do wody'
 const SITE_DESCRIPTION =
-  'Profesjonalne paczkowarki do wody pitnej – automatyczne i ręczne. Rozwiązania na sytuacje kryzysowe, bioasekurację i ciągłość produkcji. Atesty PZH, wsparcie techniczne, dostawa w całej Polsce.'
+  'Profesjonalne paczkowarki do wody pitnej – automatyczne i ręczne. Realizujemy program ochrony ludności i obrony cywilnej. Rozwiązania na sytuacje kryzysowe, bioasekurację i ciągłość produkcji. Atesty PZH, wsparcie techniczne, dostawa w całej Polsce.'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -32,6 +32,14 @@ export const metadata: Metadata = {
     'pakowanie wody w worki',
     'atest PZH woda',
     'paczkowarka do wody',
+    'ochrona ludności',
+    'obrona cywilna',
+    'program ochrony ludności i obrony cywilnej',
+    'zaopatrzenie w wodę obrona cywilna',
+    'woda pitna ochrona ludności',
+    'program obrony cywilnej woda',
+    'zabezpieczenie wody pitnej',
+    'zarządzanie kryzysowe woda',
   ],
   authors: [{ name: 'Paczkowarka do wody', url: SITE_URL }],
   creator: 'Paczkowarka do wody',

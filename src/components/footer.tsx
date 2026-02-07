@@ -20,6 +20,7 @@ export function Footer() {
               { label: "Automatyczne", href: "#automatyczne" },
               { label: "Ręczne", href: "#reczne" },
               { label: "Zastosowania", href: "#zastosowania" },
+              { label: "Ochrona ludności", href: "#ochrona-ludnosci" },
               { label: "Dlaczego my", href: "#dlaczego-my" },
               { label: "Kontakt", href: "#kontakt" },
             ].map((link) => (
@@ -33,8 +34,11 @@ export function Footer() {
             ))}
           </nav>
 
-          <p className="text-xs text-muted-foreground  text-center">
-            &copy; {new Date().getFullYear()} Paczkowarka do wody. Wszelkie prawa zastrzezone.
+        </div>
+
+        <div className="mt-8 border-t border-border pt-6 text-center">
+          <p className="text-xs text-muted-foreground">
+            &copy; {new Date().getFullYear()} Paczkowarka do wody. Wszelkie prawa zastrzeżone.
           </p>
         </div>
       </div>
