@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { Menu, X, Droplets } from "lucide-react";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Oferta", href: "#produkty" },
@@ -44,9 +45,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 xl:px-8">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 shrink-0">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-            <Droplets className="h-5 w-5 text-primary-foreground" />
-          </div>
+          <Image src="/favicon.ico" alt="Paczkowarka do wody" width={36} height={36} className="text-primary-foreground" />
           <span className="text-lg font-bold tracking-tight text-foreground">
             Paczkowarka do <span className="text-primary">wody</span>
           </span>
@@ -79,9 +78,8 @@ export function Navbar() {
 
       {/* Mobile menu overlay + panel */}
       <div
-        className={`xl:hidden fixed inset-0 top-[57px] z-40 transition-opacity duration-300 ${
-          mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
+        className={`xl:hidden fixed inset-0 top-[57px] z-40 transition-opacity duration-300 ${mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          }`}
       >
         {/* Backdrop */}
         <div
@@ -93,9 +91,8 @@ export function Navbar() {
         {/* Panel */}
         <nav
           aria-label="Nawigacja mobilna"
-          className={`relative bg-card border-t border-border shadow-xl transition-transform duration-300 ${
-            mobileOpen ? "translate-y-0" : "-translate-y-4"
-          }`}
+          className={`relative bg-card border-t border-border shadow-xl transition-transform duration-300 ${mobileOpen ? "translate-y-0" : "-translate-y-4"
+            }`}
         >
           <div className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-4">
             {navLinks.map((link) => (
