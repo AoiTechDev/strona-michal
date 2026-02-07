@@ -3,27 +3,27 @@ import { Award, Wrench, HeadphonesIcon, ShieldCheck } from "lucide-react";
 const reasons = [
   {
     icon: Award,
-    title: "Atesty i certyfikaty PZH",
+    title: "Atesty i\u00a0certyfikaty PZH",
     description:
-      "Wszystkie nasze urządzenia posiadają atesty PZH i spełniają najwyższe standardy sanitarne wymagane w Polsce i UE.",
+      "Wszystkie nasze urządzenia posiadają atesty PZH i\u00a0spełniają najwyższe standardy sanitarne wymagane w\u00a0Polsce i\u00a0UE.",
   },
   {
     icon: Wrench,
-    title: "Doświadczenie w branży",
+    title: "Doświadczenie w\u00a0branży",
     description:
-      "Lata doświadczenia w projektowaniu i wdrażaniu systemów do pakowania wody pitnej w różnych sektorach.",
+      "Lata doświadczenia w\u00a0projektowaniu i\u00a0wdrażaniu systemów do pakowania wody pitnej w\u00a0różnych sektorach.",
   },
   {
     icon: HeadphonesIcon,
     title: "Wsparcie techniczne",
     description:
-      "Pełne wsparcie od momentu zakupu - szkolenie, uruchomienie, serwis i doradztwo techniczne.",
+      "Pełne wsparcie od momentu zakupu \u2013 szkolenie, uruchomienie, serwis i\u00a0doradztwo techniczne.",
   },
   {
     icon: ShieldCheck,
     title: "Gwarancja jakości",
     description:
-      "Urządzenia wykonane z certyfikowanej stali nierdzewnej o wysokiej trwałości i niskich kosztach eksploatacji.",
+      "Urządzenia wykonane z\u00a0certyfikowanej stali nierdzewnej o\u00a0wysokiej trwałości i\u00a0niskich kosztach eksploatacji.",
   },
 ];
 
@@ -40,7 +40,7 @@ export function WhyUs() {
               Zaufanie zbudowane na jakości
             </h2>
             <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
-              Wybierając nasze rozwiązania, zyskujesz partnera <br/> z doświadczeniem, pełnym wsparciem technicznym i gwarancją najwyższej jakości. Każde urządzenie jest testowane <br/> i przygotowywane do pracy w najtrudniejszych warunkach.
+              Wybierając nasze rozwiązania, zyskujesz partnera <br/> z{'\u00a0'}doświadczeniem, pełnym wsparciem technicznym i{'\u00a0'}gwarancją najwyższej jakości. Każde urządzenie jest testowane <br/> i{'\u00a0'}przygotowywane do pracy w{'\u00a0'}najtrudniejszych warunkach.
             </p>
           </div>
 

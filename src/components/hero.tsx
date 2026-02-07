@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative h-screen overflow-hidden bg-[hsl(215,25%,8%)] flex items-center"
+      className="relative min-h-screen overflow-hidden bg-[hsl(215,25%,8%)] flex items-center"
     >
       {/* Multi-layered gradient background */}
       <div className="absolute inset-0" aria-hidden="true">
@@ -48,7 +48,7 @@ export function Hero() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-20 pb-10 sm:pt-24 sm:pb-16 lg:px-8 lg:pt-28 lg:pb-32">
         <div className="flex flex-col items-center text-center">
           {/* Animated badge */}
-          <div className="group mb-4 mt-6 sm:mb-6 inline-flex items-center gap-2 sm:gap-2.5 rounded-full border border-primary/25 bg-primary/8 px-4 sm:px-5 py-1.5 sm:py-2 backdrop-blur-md transition-all duration-300 hover:border-primary/40 hover:bg-primary/12 hero-fade-in hero-fade-in-1">
+          <div className="group mb-4 mt- sm:mb-6 inline-flex items-center gap-2 sm:gap-2.5 rounded-full border border-primary/25 bg-primary/8 px-4 sm:px-5 py-1.5 sm:py-2 backdrop-blur-md transition-all duration-300 hover:border-primary/40 hover:bg-primary/12 hero-fade-in hero-fade-in-1">
             <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/60" />
               <span className="relative inline-flex h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-primary" />
