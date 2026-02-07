@@ -1,6 +1,7 @@
 import React from "react"
 import type { Metadata, Viewport } from 'next'
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google'
+import Script from 'next/script'
 
 import './globals.css'
 
@@ -89,6 +90,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17925831270"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17925831270');
+          `}
+        </Script>
+      </head>
       <body className={`${inter.variable} ${jakarta.variable} font-sans antialiased`}>{children}</body>
     </html>
   )
