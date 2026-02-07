@@ -161,7 +161,7 @@ export default function Page() {
         <Applications />
         <CivilDefense />
         <WhyUs />
-        {/* <Contact /> */}
+        <Contact />
       </main>
       <Footer />
     </>

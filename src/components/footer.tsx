@@ -1,4 +1,4 @@
-import { Droplets } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -6,9 +6,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
           <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-              <Droplets className="h-4 w-4 text-primary-foreground" />
-            </div>
+          
+            <Image src="/favicon.ico" alt="Paczkowarka do wody" width={36} height={36} className="text-primary-foreground" />
             <span className="text-sm font-bold text-card-foreground">
               Paczkowarka do <span className="text-primary">wody</span>
             </span>
