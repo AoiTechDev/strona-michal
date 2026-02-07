@@ -115,7 +115,7 @@ export function ProductCards() {
                 ))}
               </ul>
               <div className="mt-8">
-                <Button asChild variant="outline" className="gap-2 bg-transparent">
+                <Button asChild className="gap-2 bg-transparent">
                   <a href="#reczne">
                     Zobacz szczegóły
                     <ArrowRight className="h-4 w-4" aria-hidden="true" />
