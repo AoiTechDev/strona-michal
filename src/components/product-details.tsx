@@ -132,7 +132,8 @@ export function AutomaticDetail() {
                 alt="Automatyczna paczkowarka do wody pitnej – maszyna do pakowania wody w saszetki"
                 width={600}
                 height={900}
-                className="mx-auto h-auto max-h-[520px] w-auto object-contain p-8"
+                className="mx-auto h-auto max-h-[520px] w-auto object-contain p-8 select-none pointer-events-none"
+                draggable={false}
                 priority
               />
             </div>
@@ -256,7 +257,8 @@ export function ManualDetail() {
                 alt="Ręczna paczkowarka do wody w worki – mobilna stacja do pakowania wody pitnej"
                 width={900}
                 height={700}
-                className="mx-auto h-auto max-h-[480px] w-auto object-contain p-8"
+                className="mx-auto h-auto max-h-[480px] w-auto object-contain p-8 select-none pointer-events-none"
+                draggable={false}
                 priority
               />
             </div>
