@@ -40,7 +40,7 @@ export function WhyUs() {
               Zaufanie zbudowane na jakości
             </h2>
             <p className="mt-5 text-pretty text-lg leading-relaxed text-muted-foreground">
-              Wybierając nasze rozwiązania, zyskujesz partnera z doświadczeniem, pełnym wsparciem technicznym i gwarancją najwyższej jakości. Każde urządzenie jest testowane i przygotowywane do pracy w najtrudniejszych warunkach.
+              Wybierając nasze rozwiązania, zyskujesz partnera <br/> z doświadczeniem, pełnym wsparciem technicznym i gwarancją najwyższej jakości. Każde urządzenie jest testowane <br/> i przygotowywane do pracy w najtrudniejszych warunkach.
             </p>
           </div>
 

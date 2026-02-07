@@ -30,10 +30,10 @@ export function AutomaticDetail() {
               Automatyczna paczkowarka do wody pitnej
             </h2>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-              Nowoczesna automatyczna paczkowarka do porcjowania i pakowania wody pitnej w jednorazowe saszetki o pojemnosci 300-1000 ml. Urzadzenie pracuje w trybie ciaglym i moze byc uzytkowne stacjonarnie lub polmobilnie.
+              Nowoczesna automatyczna paczkowarka do porcjowania i pakowania wody pitnej w jednorazowe saszetki o pojemności 300–1000 ml. Urządzenie pracuje w trybie ciągłym i może być użytkowane stacjonarnie lub mobilnie.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Woda trafia bezposrednio do maszyny, przechodzi przez system uzdatniania i dezynfekcji (opcjonalnie filtracja mechaniczna, UV, dezynfekcja chemiczna), a nastepnie jest pakowana w szczelne opakowania gotowe do natychmiastowej dystrybucji.
+              Maszyna pakuje wcześniej uzdatnioną wodę w hermetyczne, jednorazowe opakowania. Przystosowana do natychmiastowej dystrybucji wśród ludności. Automatyczny proces konfekcjonowania zapewnia wysoki poziom bezpieczeństwa sanitarnego, powtarzalność porcji oraz sprawne wydawanie wody w sytuacjach wymagających szybkiej reakcji.
             </p>
 
             {/* Technical params */}
@@ -45,7 +45,7 @@ export function AutomaticDetail() {
                   { icon: Ruler, label: "Szerokosc folii", value: "320 / 380 mm" },
                   { icon: Timer, label: "Wydajnosc", value: "1200-2200 paczek/h" },
                   { icon: FileText, label: "Instrukcja", value: "Jezyk polski" },
-                  { icon: Award, label: "Atesty", value: "PZH" },
+                  { icon: Award, label: "Urządzenia i folie posiadają", value: "Atesty i certyfikaty PZH" },
                 ].map((param) => (
                   <div
                     key={param.label}
@@ -60,14 +60,33 @@ export function AutomaticDetail() {
                 ))}
               </div>
             </div>
+            <div className="mt-8">
+              <h3 className="text-lg font-semibold text-foreground">Forma zakupu</h3>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {[
+                  "Zakup gotówkowy",
+                  "Leasing",
+                  "Konfiguracja indywidualna",
+                  "Zakup poza PZP ",
+                ].map((option) => (
+                  <span
+                    key={option}
+                    className="rounded-full border border-accent/30 bg-accent/5 px-3 py-1.5 text-xs font-medium text-foreground"
+                  >
+                    {option}
+                  </span>
+                ))}
+              </div>
+            </div>
+
 
             {/* Included + Applications – below text on left */}
             <div className="mt-8 flex flex-col gap-6">
               <div className="rounded-2xl border border-border bg-background p-8">
-                <h3 className="text-lg font-semibold text-foreground">W standardzie</h3>
+                <h3 className="text-lg font-semibold text-foreground">Zapewniamy w cenie</h3>
                 <div className="mt-5 flex flex-col gap-4">
                   {[
-                    { icon: Truck, text: "Dostawa urzadzenia" },
+                    { icon: Truck, text: "Dostawę urzadzenia" },
                     { icon: GraduationCap, text: "Szkolenie z obslugi" },
                     { icon: Headphones, text: "Wsparcie przy pierwszym uruchomieniu" },
                   ].map((item) => (
@@ -80,6 +99,7 @@ export function AutomaticDetail() {
                   ))}
                 </div>
               </div>
+              
 
               <div className="rounded-2xl border border-border bg-background p-8">
                 <h3 className="text-lg font-semibold text-foreground">Zastosowanie</h3>
@@ -137,21 +157,21 @@ export function ManualDetail() {
               Ręczna paczkowarka do wody w worki
             </h2>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-              Urzadzenie klasy premium do pakowania wody pitnej w atestowane worki foliowe. Zaprojektowane z mysla o pracy w warunkach kryzysowych, terenowych oraz jako rezerwowe zrodlo wody dla instytucji i gospodarstw.
+              Urządzenie klasy premium do pakowania wody pitnej w atestowane worki foliowe. Zaprojektowane z myślą o pracy w warunkach kryzysowych, terenowych oraz jako rezerwowe źródło wody dla instytucji i gospodarstw.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              System wymaga doprowadzenia wody uzdatnionej i zdatnej do spozycia, a dzieki zaawansowanej dezynfekcji zapewnia pelne bezpieczenstwo mikrobiologiczne.
+              Zastosowane procedury dezynfekcji podczas konfekcjonowania gwarantują zachowanie wysokich standardów bezpieczeństwa mikrobiologicznego gotowych opakowań.
             </p>
 
             {/* Benefits */}
             <div className="mt-8">
-              <h3 className="text-lg font-semibold text-foreground">Korzysci</h3>
+              <h3 className="text-lg font-semibold text-foreground">Korzyści</h3>
               <ul className="mt-4 flex flex-col gap-3">
                 {[
                   "Szybkie uruchomienie produkcji wody",
-                  "Redukcja kosztow transportu i magazynowania",
-                  "Spelnienie wymogow sanitarnych i audytow",
-                  "Wysoka trwalosc i niskie koszty eksploatacji",
+                  "Redukcja kosztów transportu i magazynowania",
+                  "Spełnienie wymogów sanitarnych",
+                  "Wysoka trwałość i niskie koszty eksploatacji",
                 ].map((benefit) => (
                   <li key={benefit} className="flex items-center gap-3 text-sm text-foreground">
                     <div className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/10">
@@ -168,10 +188,10 @@ export function ManualDetail() {
               <h3 className="text-lg font-semibold text-foreground">Forma zakupu</h3>
               <div className="mt-4 flex flex-wrap gap-2">
                 {[
-                  "Zakup gotowkowy",
+                  "Zakup gotówkowy",
                   "Leasing",
                   "Konfiguracja indywidualna",
-                  "Zakup poza PZP (sytuacje kryzysowe)",
+                  "Zakup poza PZP ",
                 ].map((option) => (
                   <span
                     key={option}
@@ -189,11 +209,11 @@ export function ManualDetail() {
                 <h3 className="text-lg font-semibold text-card-foreground">Dedykowane dla</h3>
                 <div className="mt-5 flex flex-wrap gap-2">
                   {[
-                    "Przedsiebiorstw wodociagowych",
-                    "Jednostek samorzadu terytorialnego",
-                    "Wojska i sluzb ratunkowych",
+                    "Przedsiębiorstw wodociągowych",
+                    "Jednostek samorządu terytorialnego",
+                    "Wojska i służb ratunkowych",
                     "Organizacji humanitarnych",
-                    "Ferm drobiu i zakladow produkcyjnych",
+                    "Ferm drobiu i zakładów produkcyjnych",
                   ].map((app) => (
                     <span
                       key={app}
@@ -210,12 +230,11 @@ export function ManualDetail() {
                 <h3 className="text-lg font-semibold text-card-foreground">Kluczowe cechy</h3>
                 <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
                   {[
-                    { icon: Droplets, text: "Worki 5-15 litrow" },
+                    { icon: Droplets, text: "Worki 5-15 litrów" },
                     { icon: ShieldCheck, text: "Certyfikowana stal nierdzewna" },
                     { icon: FlaskConical, text: "Filtr mechaniczny, lampa UV, chlorator" },
-                    { icon: Sun, text: "Komory UV do dezynfekcji workow" },
+                    { icon: Sun, text: "Komory UV do dezynfekcji worków" },
                     { icon: Printer, text: "Drukarka etykiet" },
-                    { icon: Sun, text: "Magazyn workow z lampa UV" },
                   ].map((feature) => (
                     <div key={feature.text} className="flex items-center gap-3">
                       <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent/10">

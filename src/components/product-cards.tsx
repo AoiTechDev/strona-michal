@@ -10,11 +10,11 @@ export function ProductCards() {
             Nasze rozwiązania
           </p>
           <h2 id="produkty-heading" className="mt-3 text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Dwie linie produktowe – automatyczne i ręczne paczkowarki do wody
+            Dwie linie produktowe<br/> automatyczne i ręczne paczkowarki do wody
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            Nasze rozwiązania pozwalają lokalnie porcjować i pakować wodę w higieniczne opakowania
-            – zarówno w pełni automatycznie, jak i w wersji ręcznej.
+            Nasze rozwiązania pozwalają lokalnie porcjować i pakować wodę <br/> w worki atestowane LDPE
+            – zarówno w pełni automatycznie, <br/> jak i w wersji ręcznej.
           </p>
         </header>
 
@@ -28,14 +28,14 @@ export function ProductCards() {
                 Automatyczne paczkowarki do wody
               </h3>
               <p className="mt-2 text-sm font-medium text-primary">
-                Saszetki 300–1000 ml | do 2200 paczek/h
+                Saszetki 300–1000 ml
               </p>
               <p className="mt-4 flex-1 text-pretty leading-relaxed text-muted-foreground">
-                Nowoczesne maszyny do automatycznego porcjowania i pakowania wody pitnej w jednorazowe, szczelne saszetki. Przeznaczone do pracy ciągłej w instytucjach, przemyśle, hodowli oraz w sytuacjach kryzysowych.
+                Nowoczesne maszyny do automatycznego porcjowania <br/>i pakowania wody pitnej w jednorazowe, szczelne saszetki. Przeznaczone do pracy ciągłej w instytucjach, przemyśle, hodowli oraz w sytuacjach kryzysowych.
               </p>
               <ul className="mt-6 flex flex-col gap-2.5">
                 {[
-                  "Szybka dystrybucja wody bez użycia butelek",
+                  "Szybka dystrybucja wody",
                   "1 osoba = 1 paczka = pełna higiena",
                   "Możliwość produkcji wody na miejscu",
                   "Minimalny kontakt z otoczeniem",
@@ -68,14 +68,14 @@ export function ProductCards() {
                 Ręczne paczkowarki do wody
               </h3>
               <p className="mt-2 text-sm font-medium text-accent">
-                Worki 5–15 litrów | linia ręczna
+                Worki 5–15 litrów
               </p>
               <p className="mt-4 flex-1 text-pretty leading-relaxed text-muted-foreground">
-                Profesjonalne urządzenia do pakowania wody pitnej w atestowane worki foliowe. Idealne dla wojska, samorządu, służb ratunkowych, wodociągów oraz ferm drobiu jako awaryjne źródło bezpiecznej wody.
+                Profesjonalne urządzenia do pakowania wody pitnej <br/> w atestowane worki foliowe. Idealne dla wojska, samorządów, służb ratunkowych, wodociągów oraz ferm drobiu <br/> jako awaryjne źródło bezpiecznej mikrobiologicznej wody.
               </p>
               <ul className="mt-6 flex flex-col gap-2.5">
                 {[
-                  "Niezależność od dostaw wody butelkowanej",
+                  "Pełna kontrola nad zaopatrzeniem. Bez udziału cystern",
                   "Łatwy transport i magazynowanie",
                   "Sterylne pakowanie przy użyciu UV i filtracji",
                   "Możliwość pracy w terenie",

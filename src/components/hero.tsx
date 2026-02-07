@@ -23,12 +23,12 @@ export function Hero() {
           </div>
 
           <h1 id="hero-heading" className="max-w-4xl text-balance text-4xl font-bold leading-tight tracking-tight text-background md:text-5xl lg:text-6xl">
-            Paczkowarki do wody pitnej{" "}
+            Paczkowarki do wody{" "}
             <span className="text-primary">– bezpieczna woda w każdych warunkach</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-background/70 md:text-xl">
-            Oferujemy profesjonalne paczkowarki do wody pitnej – automatyczne i ręczne. Stworzone z myślą o sytuacjach kryzysowych, bioasekuracji i niezależności od dostaw zewnętrznych. Atesty PZH, wydajność do 2200 paczek/h.
+            Oferujemy profesjonalne paczkowarki do wody – automatyczne i ręczne. Stworzone z myślą o sytuacjach kryzysowych, bioasekuracji i niezależności od dostaw zewnętrznych. Atesty i certyfikaty PZH.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
@@ -47,7 +47,7 @@ export function Hero() {
           <div className="mt-16 grid w-full max-w-3xl grid-cols-1 gap-6 sm:grid-cols-3" role="list" aria-label="Kluczowe parametry">
             <div role="listitem" className="flex flex-col items-center gap-2 rounded-xl border border-background/10 bg-background/5 px-6 py-5 backdrop-blur-sm">
               <Zap className="h-6 w-6 text-primary" aria-hidden="true" />
-              <strong className="text-2xl font-bold text-background">2200+</strong>
+              <strong className="text-2xl font-bold text-background">1200+</strong>
               <span className="text-sm text-background/60">paczek na godzinę</span>
             </div>
             <div role="listitem" className="flex flex-col items-center gap-2 rounded-xl border border-background/10 bg-background/5 px-6 py-5 backdrop-blur-sm">
@@ -57,8 +57,8 @@ export function Hero() {
             </div>
             <div role="listitem" className="flex flex-col items-center gap-2 rounded-xl border border-background/10 bg-background/5 px-6 py-5 backdrop-blur-sm">
               <Droplets className="h-6 w-6 text-primary" aria-hidden="true" />
-              <strong className="text-2xl font-bold text-background">300–1000</strong>
-              <span className="text-sm text-background/60">ml pojemność saszetki</span>
+              <strong className="text-2xl font-bold text-background">0.3-15l.</strong>
+              <span className="text-sm text-background/60">pojemność saszetki</span>
             </div>
           </div>
         </div>
