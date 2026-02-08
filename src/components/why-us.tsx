@@ -1,4 +1,4 @@
-import { Award, Wrench, HeadphonesIcon, ShieldCheck } from "lucide-react";
+import { Award, Wrench, HeadphonesIcon, ShieldCheck, CircleCheck } from "lucide-react";
 
 const reasons = [
   {
@@ -27,9 +27,19 @@ const reasons = [
   },
 ];
 
+const supportPoints = [
+  "Pomagamy dobrać wydajność do realnego zapotrzebowania",
+  "Wspieramy przy tworzeniu dokumentacji kryzysowej",
+  "Doradzamy w\u00a0planach ciągłości działania",
+  "Pomagamy przygotować OPZ i\u00a0zapisy do przetargów",
+  "Szkolimy operatorów",
+  "Zapewniamy wsparcie przy uruchomieniu",
+  "Jesteśmy dostępni przed i\u00a0po zakupie",
+];
+
 export function WhyUs() {
   return (
-    <section id="dlaczego-my" aria-labelledby="dlaczego-my-heading" className="bg-background py-20 lg:py-28">
+    <section id="dlaczego-my" aria-labelledby="dlaczego-my-heading" className="bg-white py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div>
@@ -48,7 +58,7 @@ export function WhyUs() {
             {reasons.map((reason) => (
               <article
                 key={reason.title}
-                className="rounded-2xl border border-border bg-card p-6 transition-all hover:shadow-lg hover:border-primary/20"
+                className="rounded-2xl bg-background border border-border p-6 transition-all hover:shadow-lg hover:border-primary/20"
               >
                 <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10" aria-hidden="true">
                   <reason.icon className="h-5 w-5 text-primary" />
@@ -59,6 +69,26 @@ export function WhyUs() {
                 </p>
               </article>
             ))}
+          </div>
+        </div>
+
+        {/* Support points */}
+        <div className="mt-16 lg:mt-20">
+          <div className="rounded-2xl bg-background border border-border p-8 md:p-10">
+            <h3 className="text-xl font-bold tracking-tight text-foreground md:text-2xl">
+              Kompleksowe wsparcie na każdym etapie
+            </h3>
+            <p className="mt-2 text-muted-foreground">
+              Nie tylko dostarczamy urządzenia — towarzyszymy Ci od{'\u00a0'}pierwszego kontaktu po{'\u00a0'}pełne wdrożenie.
+            </p>
+            <ul className="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+              {supportPoints.map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
+                  <span className="text-sm leading-relaxed text-card-foreground">{point}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

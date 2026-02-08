@@ -234,7 +234,7 @@ export function ManualDetail() {
                     { icon: Droplets, text: "Worki 5-15 litrów" },
                     { icon: ShieldCheck, text: "Certyfikowana stal nierdzewna" },
                     { icon: FlaskConical, text: "Filtr mechaniczny, lampa UV, chlorator" },
-                    { icon: Sun, text: "Komory UV do dezynfekcji worków" },
+                    { icon: Sun, text: "Komora UV do dezynfekcji worków" },
                     { icon: Printer, text: "Drukarka etykiet" },
                   ].map((feature) => (
                     <div key={feature.text} className="flex items-center gap-3">

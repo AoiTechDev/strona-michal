@@ -148,9 +148,10 @@ export default function Page() {
         <ProductCards />
         <AutomaticDetail />
         <ManualDetail />
+        <WhyUs />
+
         <Applications />
         <CivilDefense />
-        <WhyUs />
         <Contact />
       </main>
       <Footer />

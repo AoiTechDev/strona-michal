@@ -55,7 +55,7 @@ const applications = [
 
 export function Applications() {
   return (
-    <section id="zastosowania" aria-labelledby="zastosowania-heading" className="bg-card py-20 lg:py-28">
+    <section id="zastosowania" aria-labelledby="zastosowania-heading" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <header className="text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-primary">
@@ -73,7 +73,7 @@ export function Applications() {
           {applications.map((app) => (
             <article
               key={app.title}
-              className="group rounded-2xl border border-border bg-background p-7 transition-all hover:shadow-lg hover:border-primary/20"
+              className="group rounded-2xl border border-border bg-card p-7 transition-all hover:shadow-lg hover:border-primary/20"
             >
               <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 transition-colors group-hover:bg-primary/20" aria-hidden="true">
                 <app.icon className="h-5 w-5 text-primary" />
