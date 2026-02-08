@@ -91,6 +91,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <head>
+        <link rel="help" type="text/plain" href="/llm.txt" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17925831270"
           strategy="afterInteractive"
