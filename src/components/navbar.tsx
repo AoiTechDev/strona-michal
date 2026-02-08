@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { Menu, X, Droplets } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const navLinks = [
   { label: "Oferta", href: "#produkty" },
@@ -44,12 +45,12 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 xl:px-8">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 shrink-0">
+        <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image src="/favicon.ico" alt="Paczkowarka do wody" width={36} height={36} className="text-primary-foreground" />
           <span className="text-lg font-bold tracking-tight text-foreground">
             Paczkowarka do <span className="text-primary">wody</span>
           </span>
-        </a>
+        </Link>
 
         {/* Desktop navigation — visible from xl (1280px) */}
         <nav aria-label="Nawigacja główna" className="hidden items-center gap-0.5 xl:flex">

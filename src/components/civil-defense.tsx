@@ -1,4 +1,5 @@
-import { ShieldAlert, CheckCircle2, Building, Users, Droplets } from "lucide-react";
+import { ShieldAlert, CheckCircle2, Building, Users, Droplets, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const programPoints = [
   {

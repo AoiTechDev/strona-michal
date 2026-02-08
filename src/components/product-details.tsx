@@ -14,7 +14,9 @@ import {
   Sun,
   FlaskConical,
   ShieldCheck,
+  ArrowRight,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function AutomaticDetail() {
   return (
@@ -121,6 +123,16 @@ export function AutomaticDetail() {
                   ))}
                 </div>
               </div>
+            </div>
+
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button size="lg" asChild className="gap-2">
+                <a href="#kontakt">
+                  Zapytaj o cenę
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </a>
+              </Button>
+             
             </div>
           </div>
 
@@ -242,10 +254,20 @@ export function ManualDetail() {
                         <feature.icon className="h-4 w-4 text-accent" />
                       </div>
                       <p className="text-sm font-medium text-card-foreground">{feature.text}</p>
-                    </div>
-                  ))}
+                  </div>
+                ))}
                 </div>
               </div>
+            </div>
+
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button size="lg" asChild className="gap-2">
+                <a href="#kontakt">
+                  Zapytaj o cenę
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </a>
+              </Button>
+            
             </div>
           </div>
 

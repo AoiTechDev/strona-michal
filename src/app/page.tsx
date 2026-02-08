@@ -150,8 +150,9 @@ export default function Page() {
         <ManualDetail />
         <WhyUs />
 
-        <Applications />
         <CivilDefense />
+        <Applications />
+
         <Contact />
       </main>
       <Footer />

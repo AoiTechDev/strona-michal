@@ -6,7 +6,9 @@ import {
   Bird,
   Users,
   ShieldAlert,
+  ArrowRight,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const applications = [
   {

@@ -1,17 +1,17 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-card py-10">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
-          <div className="flex items-center gap-2">
-          
+          <Link href="/" className="flex items-center gap-2">
             <Image src="/favicon.ico" alt="Paczkowarka do wody" width={36} height={36} className="text-primary-foreground" />
             <span className="text-sm font-bold text-card-foreground">
               Paczkowarka do <span className="text-primary">wody</span>
             </span>
-          </div>
+          </Link>
 
           <nav aria-label="Nawigacja w stopce" className="flex flex-wrap items-center justify-center gap-6">
             {[

@@ -1,4 +1,5 @@
-import { Award, Wrench, HeadphonesIcon, ShieldCheck, CircleCheck } from "lucide-react";
+import { Award, Wrench, HeadphonesIcon, ShieldCheck, CircleCheck, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const reasons = [
   {
@@ -18,6 +19,7 @@ const reasons = [
     title: "Wsparcie techniczne",
     description:
       "Pełne wsparcie od momentu zakupu \u2013 szkolenie, uruchomienie, serwis i\u00a0doradztwo techniczne.",
+    href: "tel:+48660960831",
   },
   {
     icon: ShieldCheck,
@@ -55,20 +57,24 @@ export function WhyUs() {
           </div>
 
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-            {reasons.map((reason) => (
-              <article
-                key={reason.title}
-                className="rounded-2xl bg-background border border-border p-6 transition-all hover:shadow-lg hover:border-primary/20"
-              >
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10" aria-hidden="true">
-                  <reason.icon className="h-5 w-5 text-primary" />
-                </div>
-                <h3 className="font-semibold text-card-foreground">{reason.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {reason.description}
-                </p>
-              </article>
-            ))}
+            {reasons.map((reason) => {
+              const Tag = reason.href ? "a" : "article";
+              return (
+                <Tag
+                  key={reason.title}
+                  {...(reason.href ? { href: reason.href } : {})}
+                  className="rounded-2xl bg-background border border-border p-6 transition-all hover:shadow-lg hover:border-primary/20"
+                >
+                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10" aria-hidden="true">
+                    <reason.icon className="h-5 w-5 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-card-foreground">{reason.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    {reason.description}
+                  </p>
+                </Tag>
+              );
+            })}
           </div>
         </div>
 
@@ -89,6 +95,15 @@ export function WhyUs() {
                 </li>
               ))}
             </ul>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button size="lg" asChild className="gap-2">
+                <a href="#kontakt">
+                  Skontaktuj się z nami
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </a>
+              </Button>
+            
+            </div>
           </div>
         </div>
       </div>

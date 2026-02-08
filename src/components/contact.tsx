@@ -18,6 +18,7 @@ const contactItems = [
     label: "Lokalizacja",
     value: "Poznań, Polska",
     href: "https://maps.google.com/?q=Poznań,Polska",
+    external: true,
   },
 ];
 
@@ -86,6 +87,12 @@ export function Contact() {
               <a
                 key={contact.label}
                 href={contact.href}
+                {...(contact.external
+                  ? {
+                      target: "_blank",
+                      rel: "nofollow noopener noreferrer",
+                    }
+                  : {})}
                 className="group relative rounded-2xl border border-white/7 bg-white/3 p-6 backdrop-blur-md transition-all duration-300 hover:border-primary/20 hover:bg-white/6"
               >
                 <div className="absolute inset-0 rounded-2xl bg-linear-to-b from-primary/5 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />

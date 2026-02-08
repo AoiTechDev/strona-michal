@@ -153,7 +153,7 @@ export function Hero() {
                 0.3–15l
               </strong>
               <span className="relative text-xs sm:text-sm font-medium text-white/40">
-                pojemność saszetki
+                pojemność worków
               </span>
             </div>
           </div>
