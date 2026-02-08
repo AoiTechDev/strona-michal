@@ -50,6 +50,7 @@ function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "Automatyczna paczkowarka do wody pitnej",
+    image: "https://www.paczkowarkadowody.pl/automatyczna.jpg",
     description:
       "Nowoczesna automatyczna paczkowarka do porcjowania i pakowania wody pitnej w jednorazowe saszetki o pojemności 300–1000 ml. Wydajność do 2200 paczek na godzinę. Atesty PZH. Idealna do realizacji programu ochrony ludności i obrony cywilnej.",
     brand: {
@@ -57,12 +58,6 @@ function JsonLd() {
       name: "Paczkowarka do wody",
     },
     category: "Maszyny do pakowania wody",
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "PLN",
-      url: "https://www.paczkowarkadowody.pl/#automatyczne",
-    },
     additionalProperty: [
       {
         "@type": "PropertyValue",
@@ -86,6 +81,7 @@ function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "Ręczna paczkowarka do wody w worki",
+    image: "https://www.paczkowarkadowody.pl/reczna.jpg",
     description:
       "Profesjonalne urządzenie klasy premium do pakowania wody pitnej w atestowane worki foliowe 5–15 litrów. Zaprojektowane do pracy w warunkach kryzysowych i terenowych. Kluczowy element programu ochrony ludności i obrony cywilnej.",
     brand: {
@@ -93,12 +89,6 @@ function JsonLd() {
       name: "Paczkowarka do wody",
     },
     category: "Maszyny do pakowania wody",
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "PLN",
-      url: "https://www.paczkowarkadowody.pl/#reczne",
-    },
     additionalProperty: [
       {
         "@type": "PropertyValue",
