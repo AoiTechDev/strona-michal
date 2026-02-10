@@ -2,7 +2,7 @@ import React from "react"
 import type { Metadata, Viewport } from 'next'
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google'
 import Script from 'next/script'
-
+import { Analytics } from "@vercel/analytics/next"
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin', 'latin-ext'], variable: '--font-inter' })
@@ -105,7 +105,9 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`${inter.variable} ${jakarta.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${inter.variable} ${jakarta.variable} font-sans antialiased`}>{children}
+        <Analytics />
+      </body>
     </html>
   )
 }
