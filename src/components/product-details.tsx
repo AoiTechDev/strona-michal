@@ -175,6 +175,9 @@ export function ManualDetail() {
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
               {"Zastosowane procedury dezynfekcji podczas konfekcjonowania gwarantują zachowanie wysokich standardów bezpieczeństwa mikrobiologicznego gotowych opakowań."}
             </p>
+            <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
+              {"Przy odpowiedniej konfiguracji i\u00a0doposażeniu urządzenie może pełnić funkcję mobilnej stacji uzdatniania wody\u00a0— rozwiązanie dwa w\u00a0jednym: mobilna stacja uzdatniania z\u00a0funkcją pakowania w\u00a0worki samozamykające oraz bag\u2011in\u2011box."}
+            </p>
 
             {/* Benefits */}
             <div className="mt-8">
