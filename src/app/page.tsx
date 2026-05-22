@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
+import { DiscountModalProvider } from "@/components/discount-modal";
+import { DiscountBanner } from "@/components/discount-banner";
 import { ProductCards } from "@/components/product-cards";
 import { AutomaticDetail, ManualDetail } from "@/components/product-details";
 import { Applications } from "@/components/applications";
@@ -140,11 +142,12 @@ function JsonLd() {
 
 export default function Page() {
   return (
-    <>
+    <DiscountModalProvider>
       <JsonLd />
       <Navbar />
       <main>
         <Hero />
+        <DiscountBanner />
         <ProductCards />
         <AutomaticDetail />
         <ManualDetail />
@@ -156,6 +159,6 @@ export default function Page() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </DiscountModalProvider>
   );
 }
