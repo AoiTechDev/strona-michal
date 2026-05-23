@@ -82,7 +82,7 @@ export function Hero() {
               asChild
               className="group/btn gap-2 sm:gap-2.5 rounded-xl bg-primary px-5 py-5 sm:px-8 sm:py-6 text-sm sm:text-base font-semibold shadow-lg shadow-primary/25 transition-all duration-300 hover:shadow-xl hover:shadow-primary/30 hover:scale-[1.02]"
             >
-              <a href="#produkty">
+              <a href="#promocja">
                 Zobacz ofertę
                 <ArrowRight
                   className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1"
