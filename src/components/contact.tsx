@@ -4,14 +4,14 @@ const contactItems = [
   {
     icon: Phone,
     label: "Telefon",
-    value: "660 960 831",
-    href: "tel:+48660960831",
+    value: "+48 517 190 265",
+    href: "tel:+48517190265",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "biuro@paczkowarkadowody.pl",
-    href: "mailto:biuro@paczkowarkadowody.pl",
+    value: "biuro@prestigepoznan.pl",
+    href: "mailto:biuro@prestigepoznan.pl",
   },
   {
     icon: MapPin,

@@ -53,9 +53,9 @@ export function DiscountBanner() {
               variant="outline"
               className="w-full gap-2 rounded-xl px-8 py-6 text-base font-semibold sm:w-auto"
             >
-              <a href="tel:+48660960831">
+              <a href="tel:+48517190265">
                 <Phone className="h-4 w-4" aria-hidden="true" />
-                +48 660 960 831
+                +48 517 190 265
               </a>
             </Button>
           </div>
@@ -65,7 +65,7 @@ export function DiscountBanner() {
         <div className="flex justify-center lg:justify-end">
           <DiscountPosterTrigger className="group relative block w-full max-w-sm cursor-pointer overflow-hidden rounded-2xl border border-border bg-white shadow-xl ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-primary/60">
             <Image
-              src="/discount.jpg"
+              src="/discount.png"
               alt="Promocja na ręczną paczkowarkę do wody w workach – cena brutto 49 200 PLN"
               width={1024}
               height={1536}

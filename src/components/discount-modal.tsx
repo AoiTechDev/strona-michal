@@ -87,7 +87,7 @@ export function DiscountModalProvider({ children }: { children: ReactNode }) {
             </DialogClose>
 
             <Image
-              src="/discount.jpg"
+              src="/discount.png"
               alt="Promocja na ręczną paczkowarkę do wody w workach – cena brutto 49 200 PLN"
               width={1024}
               height={1536}
