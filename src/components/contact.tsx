@@ -10,8 +10,8 @@ const contactItems = [
   {
     icon: Mail,
     label: "E-mail",
-    value: "biuro@prestigepoznan.pl",
-    href: "mailto:biuro@prestigepoznan.pl",
+    value: "marekskrocki@wp.pl",
+    href: "mailto:marekskrocki@wp.pl",
   },
   {
     icon: MapPin,
